@@ -1,0 +1,145 @@
+@font-face
+{
+	font-family:"krinkes";
+	src:url("../fonts/Krinkes.ttf");
+}
+figure
+{
+	text-align:center;	
+}
+figure h1
+{
+	font-size:5em;
+	color:gold;
+	font-family:krinkes;
+}
+figcaption
+{
+	font-family:krinkes;
+	font-size:1.5em;
+}
+body
+{
+	color:silver;
+	background:url("../img/image_back.jpg") fixed;
+	z-index:1;/* giving the appearance priority, just in case */
+}
+h2
+{
+	color:brown;
+	text-shadow:0 0 3px #FF0000, 0 0 5px #0000FF;/* using two different shadows to give a more visual effect to it */
+}
+img
+{
+	border-radius:20px 20px;
+}
+div:hover/* change the color, the opacity and the font weight of the hovered infos */
+{
+	box-shadow:0 0 3px #FF0000, 0 0 5px #0000FF;
+	background-color:rgba(10,10,10,1);
+	font-weight:bold;
+}
+aside
+{
+	position:absolute;
+	display:inline-block;
+	width:15%;
+	height:100%;
+	top:-0%;
+	margin-left:-1%;
+	background:linear-gradient(to right,white,silver,black);/* to give the gradient effect to the banner instead of using a background image */
+	box-shadow:3px 3px 2px gray;
+	width:8%;
+}
+section
+{
+	display:inline-block;
+	position:absolute;
+	left:10%;
+	width:87.5%;
+	clear:both;
+}
+div
+{
+	position:relative;
+	display:inline-block;
+	height:20%;
+	vertical-align:top;
+	width:30%;
+	background-color:rgba(10,10,10,0.44);
+	border-radius:5%;
+	margin-left:1.5%;
+	margin-bottom:1.3%;
+	padding:0.5%;
+	box-shadow:0.1em 0.1em rgb(10,10,10);
+	overflow:auto;
+	height:15em;
+}
+
+@media screen and (max-width:700px)
+{
+
+	figure h1
+	{
+		font-size:2em;
+	}
+	aside
+	{
+		display:none;
+	}
+	section
+	{
+		left:1%;
+		width:95%;
+	}
+	div
+	{
+		display:block;
+		width:98%;
+		height:0%;
+		margin-bottom:5px;
+	}
+	figcaption
+	{
+		font-size:1em;
+	}
+	img
+	{
+		height:100px;
+		width:100px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
